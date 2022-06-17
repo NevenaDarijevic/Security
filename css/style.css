@@ -7,4 +7,32 @@
     background-color: black;
     height: 60px;
     color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pre-header .main-menu-pre-header{ 
+    list-style: none;
+}
+.pre-header .main-menu-pre-header li { 
+    display: inline-block;
+    margin-left: 18px;
+}
+.pre-header .main-menu-pre-header li a{ 
+    color: grey;
+    text-transform: uppercase;
+}
+.main-nav .main-menu-main-nav{ 
+    list-style: none;
+    margin-top: 20px;
+}
+.main-nav .main-menu-main-nav li { 
+    display: inline-block;
+    margin-left: 18px;
+}
+.main-nav .main-menu-main-nav li a{ 
+    color: grey;
+    text-transform: uppercase;
+}
+.main-nav img{ 
+    margin-top: 10px;
 }
