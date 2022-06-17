@@ -21,6 +21,8 @@
     color: grey;
     text-transform: uppercase;
 }
+
+
 .main-nav .main-menu-main-nav{ 
     list-style: none; /*without dots kao kod nabrajanja tackice*/
     margin-top: 20px;
@@ -30,22 +32,36 @@
     margin-left: 18px;
 }
 .main-nav .main-menu-main-nav li a{ 
-    color: grey;
+    color: red;
     text-transform: uppercase;
 }
 .main-nav img{ 
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.main-nav .main-menu-main-nav  .btn-free-quote a{ 
+.main-button{ 
     background-color: blue;
     border: 1px solid blue;
-    color: white;
+    color: white !important;  /*because without this color is overrided*/
     padding: 10px;
     text-transform: uppercase;
     text-decoration: none; /*without underline*/
     transition: 0.5s; /*transition for hover*/
+    display: inline-block;
 }
-.main-nav .main-menu-main-nav  .btn-free-quote a:hover{ 
+.main-button:hover{ 
    background-color: transparent;
-   color:blue;
+   color:blue !important;  
+}
+.main-picture {
+    background-image: url('../images/main.jpg');
+    color:white;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-size: cover; /*to fit to screen*/
+}
+.main-picture h1{
+    margin-top: 7px;
+    font-size: 50px;
+    color:white; 
 }
