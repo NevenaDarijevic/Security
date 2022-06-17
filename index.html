@@ -5,22 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=s, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <title>Security WebSite</title>
 </head>
 <body>
     <header>
         <div class="pre-header">
-          <p> You are under attack? Contact security number +381 900 000</p>
-          <div>
-            <ul>
-                <li> <a href="#">Login</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Security News</a></li>
-                
-            </ul>
+          <div class="container"><!-- This container is from bootstrap and you can see in inspect mode some more css code --> 
+            <div class="row"> <!--This is one row in this containerr in pre header-->
+                <!--Max number of columns in bootstrap is 12, sum of all col-md must be 12-->
+                <div class="col-md-6">
+                    <p> You are under attack? Contact security number +381 900 000</p>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <ul>
+                            <li> <a href="#">Login</a></li>
+                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Security News</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+             </div>
           </div>
         </div>
     </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
